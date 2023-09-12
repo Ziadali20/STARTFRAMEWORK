@@ -1,0 +1,89 @@
+section{
+  padding: 100px 0;
+}
+
+#Home,#About{
+  height: 100vh;
+  background-color: #1abc9c;
+  color: #fff;
+}
+nav{
+  z-index: 999999999;
+}
+.active{
+  background-color: #1abc9c !important;
+}
+nav,.bottom{
+  background-color: #2C3E50;
+}
+.bottom{
+  height: 40vh;
+}
+.social{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+.line{
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+.section-content{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image{
+  cursor: pointer;
+}
+.image:hover .layer{
+  opacity: 0.9;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: teal;
+  opacity: 0;
+  transition: .7s ease;
+}
+
+.portfolioLayer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 21%;
+  font-size: 100px;
+}
+
+.closeBtn i {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0px 5px;
+}
+.cBtn{
+background-color: #1abc9c !important;
+}
+.contactContent label{
+  color: #1abc9c;
+}
